@@ -1,0 +1,56 @@
+.info {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #444;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inquiry {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.inquiry .inquiry-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.inquiry .inquiry-block > div {
+    /*flex: 1;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inquiry .inquiry-block img {
+    width: 175px;
+    height: 175px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.inquiry .inquiry-block img.correct {
+    border: 5px solid green;
+}
+
+.inquiry .inquiry-block img.wrong {
+    border: 5px solid red;
+}
+
+.inquiry .inquiry-block .inquiry-block-right {
+    border-left: 5px solid;
+}
